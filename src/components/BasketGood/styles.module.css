@@ -1,0 +1,25 @@
+.myCard{
+    padding: 10px;
+    display: grid;
+    height: 250px;
+    grid-template-columns: 1fr 3fr;
+}
+
+.picture__div{
+    height: auto;
+}
+
+.picture{
+    height: 200px;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.discount{
+    color: gray;
+    text-decoration: line-through;
+}

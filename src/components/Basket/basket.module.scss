@@ -1,0 +1,16 @@
+.goods{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    justify-content: center;
+    width: calc(0.75*100vw);
+}
+.activeLink{
+    text-decoration: underline;
+}
+
+@media(max-width: 720px) {
+    .goods{
+        grid-template-columns: 1fr;
+    }
+}

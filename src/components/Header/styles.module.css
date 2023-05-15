@@ -1,0 +1,66 @@
+header{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100px;
+    background-color:cadetblue;
+    position: sticky;
+    left: 0;
+    top:0;
+    z-index: 1;
+}
+
+header i{
+    color: black;
+    font-size: 26px;
+    margin: 0px 10px;
+
+    transition: color 0.15s ease-in;
+}
+
+header i:hover{
+    color: #198754;
+}
+
+header a{
+    height: 36px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 10px;
+    color: black;
+    flex-direction: column;
+    width: 50px;
+    position: relative;
+}
+
+.icon__container {
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.basketCounter{
+    position: absolute;
+    top: -0.5rem;
+    right: 0;
+    font-size: 7,5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: yellowgreen;
+    text-align: center;
+}
+
+@media (max-width: 720px) {
+    header{
+        grid-template-columns: 1fr 5fr;
+    }
+    nav{
+        display: none;
+    }
+}

@@ -1,0 +1,26 @@
+
+
+.myCard{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.picture{
+    width:fit-content;
+	height: fit-content;
+	object-fit: cover;
+}
+
+.main{
+    height:max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.discount{
+    color: gray;
+    text-decoration: line-through;
+}
